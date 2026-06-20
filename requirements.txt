@@ -1,0 +1,7 @@
+# Core pipeline runs with the Python standard library only (demo mode).
+# Install these to unlock real CV measurement and the LLM design assistant:
+opencv-python>=4.9
+numpy>=1.26
+mediapipe>=0.10      # pose/landmark extraction for measurement
+anthropic>=0.40      # Claude design-brief -> spec assistant
+ezdxf>=1.1           # optional: validate exported DXF against the spec
